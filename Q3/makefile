@@ -23,3 +23,4 @@ decode: libencriptor.so decode.o
 
 clean:
 	rm -f libencriptor.o encode.o decode.o encode decode libencriptor.so
+#Before running the program use this:export LD_LIBRARY_PATH=.
