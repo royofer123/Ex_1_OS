@@ -8,7 +8,7 @@ The project were writen by:
 This exercise covers various aspects of Linux programming, including working with processes, debugging, using libraries, and creating multi-threaded applications. The tasks involve debugging faulty programs, implementing a Pythagorean theorem calculator, creating a library for encoding/decoding messages, and building a simple file compression tool using multiple processes.
 
 We have meticulously crafted a comprehensive PDF document that provides detailed explanations of the programs we developed for each task. This document includes clear instructions and running samples to facilitate your understanding of the implemented functionalities. 
-[Download PDF Documentation](link_to_your_pdf_file.pdf)
+[Download PDF Documentation](https://github.com/royofer123/Ex_1_OS/blob/main/Ex1_OS.pdf)
  
 
 ## Task 1: Practice working with a debugger
