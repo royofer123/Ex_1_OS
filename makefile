@@ -1,5 +1,5 @@
 # List of subdirectories containing code and Makefile
-SUBDIRS := Q1 Q2 Q3 #Q4
+SUBDIRS := Q1 Q2 Q3 Q4
 
 # Default target
 all: $(SUBDIRS)

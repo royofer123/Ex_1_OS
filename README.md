@@ -39,6 +39,8 @@ This section introduces a codec library for encoding and decoding polyalphabetic
 - Text encoding and decoding
 - Memory deallocation
 
+Before running the program use this:export LD_LIBRARY_PATH=.
+
 ## Task 4: Compression and Encryption using Processes
 
 This task involves creating a compression and encryption tool similar to 'zip' using multiple processes. The primary functionalities include:
@@ -47,3 +49,13 @@ This task involves creating a compression and encryption tool similar to 'zip' u
 - compress(1)/gzip(1): Compress a large file to reduce its size.
 - gpg(1): Encrypt or decrypt a file for added security.
 - Two commands, myzip and myunzip, are implemented, each taking a parameter via argv.
+
+his program compresses a directory or file using tar, gzip, and gpg,
+    and then encrypts it with a passphrase provided by the user.
+
+    Usage: ./myzip <directory/file> <passphrase>
+
+    After using this, delete the file the orignal file that you used, and write the following command:
+    ./myunzip output.gpg <passphrase>
+    Now you will retrive your original file 
+
